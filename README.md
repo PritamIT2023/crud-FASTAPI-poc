@@ -96,6 +96,27 @@ FastAPI automatically generates interactive API documentation. Once the server i
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
+## Running Tests
+
+### 1. Navigate to Your Project Directory
+
+Open a terminal and change to your project directory:
+
+```bash
+cd path/to/your_fastapi_project
+```
+
+### 2. Run All Tests
+
+To run all tests in your project:
+
+```bash
+pytest
+```
+
+This command will discover and run all files in the current directory and subdirectories that match the pattern `test_*.py` or `*_test.py`.
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

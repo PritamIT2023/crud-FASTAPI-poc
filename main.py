@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"message": "Hello World"}
 
 # Create all tables in the database based on the defined models
 Models.Base.metadata.create_all(bind=engine)

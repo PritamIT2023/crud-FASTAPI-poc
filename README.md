@@ -54,11 +54,11 @@ Before you begin, ensure you have the following installed on your system:
 ```
 fastapi-crud-project/
 │
-├── main.py
 ├──db
 │   ├── Models.py
 │   ├── database.py
 |   ├── schema.py
+├── main.py
 ├── requirements.txt
 └── README.md
 ```

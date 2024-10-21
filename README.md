@@ -94,8 +94,6 @@ Auto-reloading when code changes are detected.
 FastAPI automatically generates interactive API documentation. Once the server is running, you can access:
 
 - Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

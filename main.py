@@ -1,10 +1,13 @@
-from typing import Union
 from db.database import engine, get_db
 import db.Models as Models
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from db.schemas import Products
 app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 
 # Create all tables in the database based on the defined models
 Models.Base.metadata.create_all(bind=engine)
